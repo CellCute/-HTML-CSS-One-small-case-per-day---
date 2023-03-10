@@ -1,0 +1,126 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background: url(./images/background.png) no-repeat;
+
+}
+
+.logo {
+    position: absolute;
+    top: 30px;
+    left: 145px;
+    width: 126px;
+    height: 113px;
+    background: url(./images/logo.png);
+}
+
+.nav {
+    position: absolute;
+    top: 60px;
+    right: 145px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 360px;
+    height: 30px;
+}
+
+.nav li a {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.nav li a:hover {
+    color: #948c8c;
+}
+
+.nav span {
+    font-family: 'icomoon';
+    font-size: 24px;
+    color: rgba(255, 255, 255, 0.7);
+    transition: all 1s ease;
+}
+
+.nav span:hover {
+    transform: rotateZ(180deg);
+}
+
+h1 {
+    position: absolute;
+    top: 400px;
+    left: 200px;
+    font-size: 80px;
+    color: #fff;
+}
+
+p {
+    position: absolute;
+    top: 520px;
+    left: 200px;
+    width: 730px;
+    font-size: 16px;
+    color: #fff;
+}
+
+button {
+    position: absolute;
+    top: 600px;
+    left: 200px;
+    width: 200px;
+    height: 60px;
+    border-radius: 40px;
+    border-style: none;
+    background-color: #fff;
+    font-size: 18px;
+
+}
+
+button:hover {
+    color: #948c8c;
+}
+
+.box {
+    position: absolute;
+    top: 300px;
+    right: 420px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    width: 520px;
+    height: 490px;
+}
+
+.box div {
+    position: relative;
+    transition: all 1s ease;
+}
+
+.box div img {
+    width: 240px;
+    height: 230px;
+    border-radius: 10px;
+}
+.box div h5 {
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.7);
+}
+.box div p {
+    position: absolute;
+    top: 45px;
+    left: 10px;
+    width: 240px;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.7);
+}
+.box div:hover {
+    transform: translateY(-20px);
+}
