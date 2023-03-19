@@ -1,0 +1,22 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    background-color: #a9e9e8;
+}
+div {
+    margin: 300px auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 20px solid #000;
+    border-top: 20px solid transparent;
+    animation: rotate 1s linear infinite;
+}
+@keyframes rotate {
+    0% {
+
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
