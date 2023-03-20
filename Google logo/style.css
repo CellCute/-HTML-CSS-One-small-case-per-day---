@@ -1,0 +1,40 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo {
+    margin: 100px auto;
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border-bottom: 50px solid rgb(50, 163, 80);
+    border-right: 50px solid rgb(64, 129, 236);
+    border-top: 50px solid rgb(227, 65, 51);
+    border-left: 50px solid rgb(243, 182, 5);
+}
+.logo::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    transform: translateY(-25px);
+    width: 75px;
+    height: 50px;
+    background-color: rgb(64, 129, 236);
+}
+.logo::after {
+    content: "";
+    position: absolute;
+    top: -170px;
+    right: -160px;
+    border: 110px solid transparent;
+    border-right: 110px solid #ffffff;
+    transform: rotate(90deg);
+    
+}
