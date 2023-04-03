@@ -1,0 +1,27 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    background-color: rgba(110, 236, 248,.1);
+}
+p {
+    margin: 400px auto;
+    width: 350px;
+    height: 70px;
+    border-right: 10px solid black;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 50px;
+    animation: appear 2s steps(15) infinite,binking .5s step-end infinite;
+}
+@keyframes appear {
+    from {
+        width: 0px;
+    }
+}
+@keyframes binking {
+    50% {
+        border-color: transparent;
+    }
+}
